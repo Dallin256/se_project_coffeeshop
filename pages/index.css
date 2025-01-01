@@ -71,7 +71,7 @@
   color: #3F96F3;
 }
 
-.header__desc{
+.header__description{
   max-width: 683px;
   margin-top: 28px;
   font-family: "Noto Serif";
@@ -81,7 +81,7 @@
   line-height: 30px;
 }
 
-.header__img{
+.header__image{
   position:absolute;
   width: 646px;
   height: 568px;
@@ -149,6 +149,7 @@
   margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0;
 }
 
 .recipes__videos{
