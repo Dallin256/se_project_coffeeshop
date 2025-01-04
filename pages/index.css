@@ -245,15 +245,11 @@
   font-size: 16px;
   line-height: 20px;
   color: #fff;
+  padding: 20px 0 20px;
 }
 
 .form__button:hover{
   background-color: #3f96f3;
-}
-
-.form__button_text{
-  margin: 0px;
-  padding: 20px 0 20px;
 }
 
 .form__checkbox{
