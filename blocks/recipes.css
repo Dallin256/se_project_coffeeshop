@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 100px 0 215px 80px;
+  padding: 100px 80px 215px;
 }
 
 .recipes__title {
@@ -37,6 +37,7 @@
   display: flex;
   justify-content: center;
   margin-top: 80px;
+  gap: 0 40px;
 }
 
 .recipes__iframe {
@@ -46,13 +47,9 @@
   border: none;
 }
 
-.recipes__videos_space {
-  margin-right: 40px;
-}
-
 .recipes__video-caption {
   width: 484px;
-  margin-top: 24px;
+  margin: 24px 0 0;
   display: flex;
   justify-content: space-between;
   font-family: "Inter", "Arial", sans-serif;

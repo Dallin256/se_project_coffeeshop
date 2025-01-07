@@ -30,6 +30,7 @@
 .footer__list {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 .footer__list-item {
@@ -52,6 +53,7 @@
 
 .footer__social-link:hover {
   opacity: 70%;
+  transition: 1s ease-in-out;
 }
 .footer__social-icon {
   padding-right: 10px;
