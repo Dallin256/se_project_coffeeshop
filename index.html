@@ -102,41 +102,43 @@
           <h2 class="reservation__title">Book a table</h2>
 
           <form class="form reservation__form">
-            <label for="name" class="form__label">Name *</label>
-            <input
-              id="name"
-              class="form__input"
-              type="text"
-              placeholder="Name Surname"
-              required
-            />
-            <label for="guest_number" class="form__label"
-              >Number of guests *</label
-            >
-            <input
-              id="guest_number"
-              class="form__input"
-              type="text"
-              placeholder="1-8"
-              required
-            />
-            <label for="date" class="form__label">Date & time *</label>
-            <input
-              id="date"
-              class="form__input"
-              type="datetime-local"
-              required
-            />
-            <label for="email" class="form__label">Your email *</label>
-            <input
-              id="email"
-              class="form__input"
-              type="email"
-              placeholder="email@email.com"
-              required
-            />
+            <fieldset class="form reservation__form">
+              <label for="name" class="form__label">Name *</label>
+              <input
+                id="name"
+                class="form__input"
+                type="text"
+                placeholder="Name Surname"
+                required
+              />
+              <label for="guest_number" class="form__label"
+                >Number of guests *</label
+              >
+              <input
+                id="guest_number"
+                class="form__input"
+                type="text"
+                placeholder="1-8"
+                required
+              />
+              <label for="date" class="form__label">Date & time *</label>
+              <input
+                id="date"
+                class="form__input"
+                type="datetime-local"
+                required
+              />
+              <label for="email" class="form__label">Your email *</label>
+              <input
+                id="email"
+                class="form__input"
+                type="email"
+                placeholder="email@email.com"
+                required
+              />
+            </fieldset>
             <button class="form__button">Book a table</button>
-            <label class="form__label">
+            <label class="form__label form__label_type_checkbox">
               <input class="form__checkbox" type="checkbox" required />
               I agree with the terms of use
             </label>
@@ -257,7 +259,7 @@
                   src="images/facebook_white.svg"
                   alt="Facebook Logo"
                 />
-                <a href="www.facebook.com" class="footer__social-link"
+                <a href="https://facebook.com" class="footer__social-link"
                   >Facebook</a
                 >
               </li>
@@ -267,7 +269,7 @@
                   src="images/instagram_white.svg"
                   alt="Instagram Logo"
                 />
-                <a href="www.instagram.com" class="footer__social-link"
+                <a href="https://instagram.com" class="footer__social-link"
                   >Instagram</a
                 >
               </li>

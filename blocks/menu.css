@@ -10,28 +10,23 @@
 }
 
 .menu__title {
-  margin: 0;
+  margin: 0 auto 24px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 24px;
   max-width: 780px;
 }
 
 .menu__subtitle {
-  margin: 0;
+  margin: 0 auto;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   max-width: 780px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
 }
 
