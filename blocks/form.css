@@ -6,7 +6,9 @@
 }
 
 .form__fieldset {
-  border: 1px solid #838383;
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .form__label {
@@ -24,6 +26,7 @@
 
 .form__input {
   border-radius: 4px;
+  width: 100%;
   max-width: 385px;
   padding: 15px 20px;
   font-family: "Inter", "Arial", sans-serif;
